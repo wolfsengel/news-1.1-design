@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700|Poppins:300,200');
+body>header {
+    Background-color : #1b6bff;
+    
+    width:auto;
+}
+body>header>h1>a{
+    font-family: Poppins;
+color: rgb(255, 255, 255);
+}
+body>header>h2>a{
+    font-family: Poppins;
+color: rgb(255, 255, 255);
+}
+body>header :first-of-type>a{
+    color: white;
+}
+body>header>div#signup{
+    font-family: Poppins;
+    font-size: medium;
+    color: rgb(255, 255, 255);
+    color: rgb(255,255,255);
+}
+body>header #singup a:first-child{
+    border-right: 0.1em solid white;
+}
+input [type="checkbox"]:enabled{
+    display: none;
+}
+article{
+    font-family: Lora;
+}
+
+
+body>header {
+    background-color: #046DD5;
+    color: white;
+    padding: 1em;
+}
+
+input[type="checkbox"]:enabled {
+    display: none;
+}
+
+
+p {
+    font-family: 'Lora';
+}
+
+li {
+    font-family: 'Poppins';
+    background-color: white;
+    text-align: center;
+    list-style-type: none;
+    padding: 1em
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li a {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+li:hover {
+    background-color: #2A2F33;
+}
+
+li:hover a {
+    color: white;
+}
+body>header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+body>header h2 {
+    margin: 0;
+    font-family: 'Poppins';
+    font-weight: lighter;
+    font-size: 1.5em;
+}
+body>header div {
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+}
+body>header a {
+    color: white;
+    text-decoration: none;
+}
+
+body>header #signup a:first-child {
+    border-right: 0.1em solid white;
+}
+
+body>header #signup a {
+    font-family: 'Poppins';
+    padding: 0 2em;
+}
+
+body>header #signup a:first-child {
+    padding-left: 0;
+}
+
+li:nth-child(1) {
+    border-top: 0.3em solid #E1493E;
+}
+
+li:nth-child(2) {
+    border-top: 0.3em solid #8ABA56;
+}
+
+li:nth-child(3) {
+    border-top: 0.3em solid #5B4282;
+}
+
+li:nth-child(4) {
+    border-top: 0.3em solid #FF8932;
+}
+
+li:nth-child(5) {
+    border-top: 0.3em solid #19B6E9;
+}
+
+li:nth-child(6) {
+    border-top: 0.3em solid #E84C8B;
+}
+
+#related {
+    background-color: #2A2F33;
+    padding: 1em;
+}
+
+#related h1 a {
+    color: white;
+    text-decoration: none;
+}
+
+#related p {
+    color: white;
+}
+
+h1 a {
+    font-family: 'Poppins';
+    font-size: 1em;
+}
+
+
+#news header a {
+    font-size: 1.4em;
+    color: white;
+    text-decoration: none;
+}
+
+
+#news header h1 {
+    text-shadow: 0.5em 0.5em 0.5em black;
+    margin: 0;
+}
+
+
+#news>article>p:first-of-type:first-letter {
+    font-size: 2em;
+}
+
+#news img {
+    width: 100%;
+}
+
+
+footer {
+    color: white;
+    background-color: #F4655F;
+    padding: 1em;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 0.1em solid white;
+}
+
+
+footer .author:before {
+    font-family: 'Poppins';
+    font-size: 1em;
+    content: "By ";
+}
+
+
+footer .comments:after {
+    content: ' comments';
+}
+
+
+footer .comments {
+    font-family: 'Poppins';
+    margin-left: 2em;
+}
+
+
+footer .tags {
+    font-family: 'Poppins';
+    margin-right: 2em;
+}
+
+
+footer .date, .author {
+    font-family: 'Poppins';
+}
+
+
+body > footer {
+    background-color: #2A2F33;
+}
+
+body > footer p {
+    margin: 0;
+}
+
+
+footer p {
+    font-family: 'Poppins';
+}
